@@ -227,7 +227,7 @@ function my_variables_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'site_name';
-  $strongarm->value = 'Druapl CR 1';
+  $strongarm->value = 'Druapl CR';
   $export['site_name'] = $strongarm;
 
   $strongarm = new stdClass();
