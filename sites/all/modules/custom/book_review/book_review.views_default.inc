@@ -61,6 +61,7 @@ function book_review_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $handler->display->display_options['block_description'] = 'New Books';
   $export['new_books'] = $view;
 
   return $export;
